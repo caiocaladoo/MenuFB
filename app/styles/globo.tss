@@ -1,0 +1,13 @@
+
+".container": {
+	width: "100%",
+	height: "100%",
+	left: "0dp",
+	top: "0dp"
+},
+"Label":{
+	top: "0dp",
+	color: "black",
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+}

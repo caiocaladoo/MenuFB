@@ -1,0 +1,92 @@
+"Window":{
+	fullscreen: false,
+	orientationModes: [Ti.UI.PORTRAIT, Ti.UI.UPSIDE_PORTRAIT, Ti.UI.LANDSCAPE_LEFT, Ti.UI.LANDSCAPE_RIGHT],
+	backgroundColor: "#3B5999",
+	layout: "absolute",
+	navBarHidden: true,
+	tabBarHidden: true
+},
+".barra":{
+	width: Ti.UI.FILL,
+	height: "40dp",
+	layout: "absolute"
+},
+
+"#searchBar":{
+	backgroundColor: "#3B5999",
+	top: "20dp"
+},
+"#searchBar[platform=android]":{
+	top: "0dp"
+},
+
+"#tabBar":{
+	backgroundColor: "#3B5999",
+	top: "60dp"
+},
+"#tabBar[platform=android]":{
+	top: "40dp"
+},
+"Label":{
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+},
+"TextField":{
+	height: "30dp",
+	width: Ti.UI.FILL,
+	left: "10dp",
+	right: "42dp",
+	top: "5dp",
+	backgroundColor: "white",
+	backgroundFocusedColor: "white",
+	paddingLeft: "5dp",
+	paddingRight: "5dp",
+	hintText: "Pesquisar aqui...",
+	font: {
+		fontSize: "14dp"
+	},
+	verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+	color: "#3B5999",
+	borderRadius: "5dp",
+	tintColor: "#3B5999"
+},
+"#searchBtn":{
+	backgroundImage: "/images/botoes/search.png",
+	top: "9dp",
+	width: "24dp",
+	height: "24dp",
+	right: "5dp"
+},
+".conteudo":{
+	width: "100%",
+	height: "100%",
+	left: "0dp",
+	right: "0dp",
+	top: "0dp"
+},
+"#scrollable": {
+	showPagingControl: "false",
+	top: "100dp",
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	backgroundColor: "white",
+	layout: "horizontal"
+},
+"#scrollable[platform=android]":{
+	top: "80dp"
+},
+".tabBtn":{
+	width: "25%",
+	height: "38dp"
+},
+
+"#seletor":{
+	width: "25%",
+	height: "4dp",
+	backgroundColor: "#3B5999",
+	bottom: "0dp",
+	left: "0dp"
+},
+"ImageView":{
+	height: "26dp"
+}

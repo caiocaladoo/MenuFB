@@ -1,0 +1,29 @@
+<Alloy>
+	<Window id="win">
+		<View id="searchBar" class="barra">
+			<TextField id="pesquisa"></TextField>
+			<ImageView id="searchBtn"></ImageView>
+		</View>
+		<View id="tabBar" class="barra" backgroundColor="white">
+			<View id="seletor"></View>
+			<View id="newsBtn" class="tabBtn" left="0dp">
+				<ImageView id="newsImg"  image="/images/icones/news-blue.png"></ImageView>
+			</View>
+			<View id="messageBtn" class="tabBtn" left="25%">
+				<ImageView id="messageImg" image="/images/icones/message.png"></ImageView>
+			</View>
+			<View id="peopleBtn" class="tabBtn" left="50%">
+				<ImageView id="peopleImg"  image="/images/icones/contacts.png"></ImageView>
+			</View>
+			<View id="globoBtn" class="tabBtn" left="75%">
+				<ImageView id="globoImg"  image="/images/icones/globo.png"></ImageView>
+			</View>
+		</View>
+		<ScrollableView id="scrollable">
+			<Require type="view" src="news" class="conteudo"/>
+			<Require type="view" src="message" class="conteudo"/>
+			<Require type="view" src="people" class="conteudo"/>
+			<Require type="view" src="globo" class="conteudo"/>
+		</ScrollableView>
+	</Window>
+</Alloy>
